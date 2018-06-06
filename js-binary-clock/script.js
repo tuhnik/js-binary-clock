@@ -38,7 +38,7 @@ function updateClock(num) {
     })
 }
 
-function createNodes() {
+function createBlocks() {
     var bin = 8
     for(i = 0; i < 6; i++) {
         var col = document.createElement("div");
@@ -84,6 +84,6 @@ function showBlockNumbers() {
         })
     }
 }
-createNodes()
+createBlocks()
 tick()
 setInterval(tick, 1000)
