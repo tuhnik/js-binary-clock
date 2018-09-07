@@ -68,7 +68,6 @@ function showHint(arr) {
 document.addEventListener("click", function() {
     hint_nr++
     if(hint_nr > 4) hint_nr = 0;
-    console.log(hint_nr)
     localStorage.setItem("hint", hint_nr)
     tick()
 })
